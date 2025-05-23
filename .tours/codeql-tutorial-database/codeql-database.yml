@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: /workspaces/msc-ines/store
+baselineLinesOfCode: 12485
+unicodeNewlines: true
+columnKind: utf16
+primaryLanguage: javascript
+creationMetadata:
+  cliVersion: 2.21.3
+  creationTime: 2025-05-19T17:48:41.454698945Z
+finalised: true

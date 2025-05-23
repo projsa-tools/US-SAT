@@ -1,0 +1,60 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CodeQL tutorial",
+  "isPrimary": true,
+  "steps": [
+    {
+      "description": "Welcome to the CodeQL tour!\n\nIn the next steps, we'll help you setup CodeQL for our user study! 📚 \n\n If this is your first time activating the extension, you may be prompted to reload your workspace. Please, do it 🙂 \n\nTo get started, click 'Next (The CodeQL extension)'.",
+      "title": "Welcome!"
+    },
+    {
+      "description": "The CodeQL extension helps you to easily find problems in codebases. \n\n > Under Language, please select JAVASCRIPT. ",
+      "title": "Selecting programming language",
+      "view": "codeQLDatabases"
+    },
+    {
+      "directory": ".tours/codeql-tutorial-database",
+      "description": "> Under Databases, please select CODEQL TUTORIAL DATABASE.",
+      "title": "Selecting the codebase"
+    },
+    {
+      "title": "Is everything set?",
+      "description": "On the left hand side, confirm that 'Javascript' and 'CodeQL Tutorial Database' are present and selected with a check mark.",
+      "view": "codeQLDatabases"
+    },
+    {
+      "file": "codeql-custom-queries-javascript/example.ql",
+      "description": "It's time to run your first query!\n\nWe started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "title": "Run query",
+      "commands": [
+        "codeQL.runQuery"
+      ]
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "You can see a history of all run queries in the 'Query History' panel in the extension.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "title": "Query History",
+      "view": "codeQLQueryHistory"
+    }
+  ]
+}
